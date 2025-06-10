@@ -14,6 +14,7 @@
  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+//use 2.0.4 version of ESP32 board
 
 #define LOCAL_WEB //Website located on PC
 //#define USE_OTA
@@ -34,7 +35,7 @@
 
 
 // #include <Arduino.h>
-#include <ArduinoJson.h>
+#include <ArduinoJson.h>  //use 7.3.1 version
 #include <driver/ledc.h>
 
 #define PINSTEPY_M1 18
